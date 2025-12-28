@@ -202,4 +202,3 @@ if __name__ == '__main__':
         #raise RuntimeError('must use the gpu!!!!')
 
     inference(net=net, img_path=opts.img_path,output_path=opts.output_path , output_name=opts.output_name, use_gpu=use_gpu)
-
